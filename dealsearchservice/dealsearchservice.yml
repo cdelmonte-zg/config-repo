@@ -1,0 +1,7 @@
+example.property: "I AM IN THE DEFAULT"
+elasticsearch.clusterName: docker-cluster
+elasticsearch.host: elasticsearch
+elasticsearch.port: 9200
+elasticsearch.user: "{cipher}a3a8ed623b76a062ad1d48d895dc40a11bbebf9d0c69fe361f29af4e72506a9c"
+elasticsearch.password: "{cipher}78c4f23f0a56fe62102c05a55c9e5fd6ea1253afba61f681d62f198f9abbfcbb"
+signing.key: "345345fsdfsf5345"
