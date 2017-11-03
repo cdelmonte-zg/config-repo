@@ -2,6 +2,7 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.alienservice: /aliens/**
 zuul.routes.planetservice: /planets/**
+zuul.routes.authenticationservice: /auth/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 15000
