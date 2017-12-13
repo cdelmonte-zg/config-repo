@@ -5,7 +5,4 @@ zuul.routes.planetservice: /planets/**
 zuul.routes.authenticationservice: /auth/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 15000
-hystrix.command.planetservice.execution.isolation.thread.timeoutInMilliseconds: 2000
-planetservice.ribbon.ReadTimeout: 2000
 signing.key: "345345fsdfsf5345"
