@@ -1,19 +1,7 @@
 elasticsearch.clusterName: docker-cluster
-elasticsearch.host: 18.196.5.108
+elasticsearch.host: 172.31.30.139
 elasticsearch.port: 9200
 elasticsearch.user: "{cipher}a3a8ed623b76a062ad1d48d895dc40a11bbebf9d0c69fe361f29af4e72506a9c"
 elasticsearch.password: "{cipher}78c4f23f0a56fe62102c05a55c9e5fd6ea1253afba61f681d62f198f9abbfcbb"
-spring.datasource.platform: "postgres"
-spring.jpa.show-sql: "true"
-spring.database.driverClassName: "org.postgresql.Driver"
-spring.datasource.url: "jdbc:postgresql://postgres-micro-shoop-de-aws-dev.cjyrfblpkd9a.eu-central-1.rds.amazonaws.com:5432/micro_aws_dev"
-spring.datasource.username: "micro_aws_dev"
-spring.datasource.password: "{cipher}32cc386dc3c8ba5c388fd5cb1f79fe50e77729075d8f775f00396d2c6a361ea9ac68b973794e5082bf27e27dde34ba1f"
-spring.datasource.testWhileIdle: "true"
-spring.datasource.validationQuery: "SELECT 1"
-spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 signing.key: "345345fsdfsf5345"
-redis.server: "redisawsdev.zosmr0.0001.euc1.cache.amazonaws.com"
-redis.port: "6379"
 middlelayer.merchants.endpoint: "{cipher}fe8f1a3a50535b3079aec8727697038ec770a409e00165f61d1feaa49179a849b40373c50e3a0ab19d15ecb7cbb934910585c48f81f08acda68e43e8720ad2190e3185dfaf3aec7fba489c48d326ec2f7b8e6b87adfd10bafa08ec12bd94c910772a8980eae59a66c2809e51d90fe3a20ed5dac8f4602ddce4869a946e1ff5e9"
-middlelayer.merchants.categories.endpoint: "{cipher}1c808bf95f6db3bcccd5400a444d24309a1d3e59af3e7b5f55c3b28396abb9ac6e7be348d3e6858150c2d32ecef5148133b6f2cef183a49a2410a66c08c0c608"
