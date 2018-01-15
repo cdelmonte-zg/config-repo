@@ -1,1 +1,4 @@
 signing.key: "345345fsdfsf5345"
+eureka.instance.preferIpAddress: true
+eureka.instance.hostname: "172.35.10.23"
+eureka.instance.ip-address: "172.35.10.23"
