@@ -5,3 +5,4 @@ zuul.routes.planetservice: /planets/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 signing.key: "345345fsdfsf5345"
+eureka.instance.preferIpAddress: false
