@@ -9,5 +9,5 @@ zuul.debug.request: true
 ##licensingservice.ribbon.ReadTimeout: 2
 signing.key: "345345fsdfsf5345"
 eureka.instance.preferIpAddress: true
-eureka.instance.hostname: "172.31.12.154"
-eureka.instance.ip-address: "172.31.12.154"
+eureka.instance.hostname: "172.31.21.116"
+eureka.instance.ip-address: "172.31.21.116"
