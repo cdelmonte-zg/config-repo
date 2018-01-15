@@ -1,12 +1,3 @@
-zuul.prefix:  /api
-zuul.routes.alienservice: /aliens/**
-zuul.routes.planetservice: /planets/**
-zuul.routes.authenticationservice: /authenticationservice/**
-zuul.sensitiveHeaders: Cookie,Set-Cookie
-zuul.debug.request: true
-#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2
-##hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
-##licensingservice.ribbon.ReadTimeout: 2
 signing.key: "345345fsdfsf5345"
 eureka.instance.preferIpAddress: true
 eureka.instance.hostname: "172.31.21.116"

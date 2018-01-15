@@ -1,9 +1,2 @@
-zuul.ignored-services: "*"
-zuul.prefix:  /api
-zuul.routes.alienservice: /aliens/**
-zuul.routes.planetservice: /planets/**
-zuul.routes.authenticationservice: /auth/**
-zuul.sensitiveHeaders: Cookie,Set-Cookie
-zuul.debug.request: true
 signing.key: "345345fsdfsf5345"
 eureka.instance.preferIpAddress: false
