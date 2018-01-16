@@ -6,5 +6,4 @@ elasticsearch.password: "{cipher}590464749f96c33a3942371324fd66ec2b7f7f2ed7061dd
 signing.key: "345345fsdfsf5345"
 middlelayer.merchants.endpoint: "{cipher}fe8f1a3a50535b3079aec8727697038ec770a409e00165f61d1feaa49179a849b40373c50e3a0ab19d15ecb7cbb934910585c48f81f08acda68e43e8720ad2190e3185dfaf3aec7fba489c48d326ec2f7b8e6b87adfd10bafa08ec12bd94c910772a8980eae59a66c2809e51d90fe3a20ed5dac8f4602ddce4869a946e1ff5e9"
 eureka.instance.preferIpAddress: true
-eureka.instance.hostname: "172.31.3.180"
 eureka.instance.ip-address: "172.31.3.180"
