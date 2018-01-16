@@ -7,6 +7,7 @@ spring.datasource.password: "{cipher}32cc386dc3c8ba5c388fd5cb1f79fe50e77729075d8
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+spring.kafka.bootstrap-servers: "http://172.31.35.100:9092"
 redis.server: "redisawsdev.zosmr0.0001.euc1.cache.amazonaws.com"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
