@@ -1,2 +1,4 @@
 signing.key: "345345fsdfsf5345"
 eureka.instance.preferIpAddress: true
+redis.server: "redis"
+redis.port: "6379"
