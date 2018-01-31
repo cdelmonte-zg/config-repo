@@ -9,4 +9,4 @@ eureka.instance.preferIpAddress: true
 spring.kafka.schema-registry: "http://schema-registry:8081"
 spring.kafka.consumer.group-id: schedulerService
 spring.kafka.consumer.auto-offset-reset: earliest
-kafka.topic.boot: schedulerService.tasks
+kafka.topic.import-merchants: schedulerService.import-merchants
